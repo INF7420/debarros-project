@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0;
+}
+body {
+    background: rgb(251, 255, 250);
+    color: rgb(87, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a { color: blue;
+
+}
+img {
+    max-width: 50%;
+}
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.main-menu {
+    position: relative;
+}
+.menu-icon {
+cursor:pointer;
+display: inline-block;
+float: right;
+padding: 28px 20px;
+position: relative;
+user-select: none;
+}
+@media screen and (min-width: 768px) { 
+    header, 
+    footer {
+        clear: both;
+    }
+}
+header {
+    background: rgb(166, 245, 150); 
+    color: rgb(87, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+footer {
+    background: rgb(166, 245, 150);
+    color: rgb(87, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
