@@ -20,6 +20,7 @@ nav a {
 }
 .main-menu {
     position: relative;
+    text-align: center;
 }
 .menu-icon {
 cursor:pointer;
@@ -35,15 +36,117 @@ user-select: none;
         clear: both;
     }
 }
-header {
+
+.main-nav{
+   display:inline-block;
+}
+
+.header {
     background: rgb(166, 245, 150); 
     color: rgb(87, 0, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    height: fit-content;
+    width:100%;
+    text-align:center;
 }
+
+.header-logo{
+    width:10%; 
+    display:inline-block;
+    padding:0px;
+}
+
+.header-text{
+    float:right; 
+    font-size:90%;
+    width:75%; 
+    display:inline-block;
+    padding:0px
+}
+
+a{
+    font-size:55%;
+}
+
+.image-row{
+   text-align:center;
+}
+
+.image-column{
+    width:40%;
+    display:inline-block;
+    text-align:center;
+    vertical-align: top;
+}
+
+.image-header{
+    font-size:12pt;
+    color:grey;
+}
+
+.actual-image{
+    max-width:100%;
+}
+
+
+.about-us-content-row{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+.about-us-row-title{
+    width:15%;
+    display:inline-block;
+    vertical-align: top;
+    float: left;
+    font-size: 50%;
+
+}
+
+.about-us-row-text{
+    width:30%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+.about-us-image-holder{
+    display: inline-block;
+    width: 30%;
+}
+
+
+.contact-holder{
+    text-align:left;
+}
+
+
+.contact-info-holder{
+    display: inline-block;
+    text-align:center;
+    width:100%;
+}
+
+.contact-info{
+    text-align: left;
+    width: 54%;
+    display: inline-block;
+}
+
 footer {
     background: rgb(166, 245, 150);
     color: rgb(87, 0, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    font-size: 9pt;
+
+}
+
+#special-footer{
+    position:absolute;
+    bottom:0px;
+    left:0px;
 }
 
