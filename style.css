@@ -119,7 +119,7 @@ a{
 
 
 .contact-holder{
-    text-align:left;
+    text-align:center;
 }
 
 
@@ -130,10 +130,63 @@ a{
 }
 
 .contact-info{
-    text-align: left;
+    text-align: center;
     width: 54%;
     display: inline-block;
 }
+
+form{
+    display: inline-block;
+    width:57%;
+}
+
+#form-holder{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.form-input{
+    display: block;
+    width: 100%;
+}
+
+
+.error-message{
+    color: red;
+    text-align: left;
+    font-size: 8pt;
+}
+
+.error-border{
+    border-color:red;
+}
+
+#message{
+    display: block;
+    resize: vertical;
+    margin: 5% 0px;
+    width:100%;
+    min-height: 80px;
+    font-family: sans-serif;
+    color: grey;
+}
+
+#form-submit{
+    width: 100%;
+    margin: 10px 0px;
+    background:#01b701;
+    color: white;
+    font-weight: 700;
+    border-radius: 4px;
+    font-size: 12pt;
+}
+
+#form-submit:hover{
+    cursor:pointer;
+    background: #00c500;
+}
+
+
 
 footer {
     background: rgb(166, 245, 150);
