@@ -18,9 +18,7 @@ window.addEventListener('load', function(){
     }
     textElements.forEach(listen);
 
-    let messageArea = document.getElementById('message');
-    messageArea.innerText = "Enter your message here.";
-
+ 
 
     let emailInput = document.getElementById('form-email');
     emailInput.addEventListener('invalid', ()=>{
@@ -29,8 +27,5 @@ window.addEventListener('load', function(){
     })
 
 
-    let messageInput = this.document.getElementById('message');
-    messageInput.addEventListener('click', ()=>{
-        messageInput.innerText = "";
-    })
+
 })

@@ -81,7 +81,7 @@ a{
 
 .image-header{
     font-size:12pt;
-    color:grey;
+    color:black;
 }
 
 .actual-image{
@@ -148,9 +148,12 @@ form{
 .form-input{
     display: block;
     width: 100%;
+    margin: 0px 0px 20px 0px;
 }
 
-
+form{
+    text-align: left;
+}
 .error-message{
     color: red;
     text-align: left;
@@ -164,18 +167,17 @@ form{
 #message{
     display: block;
     resize: vertical;
-    margin: 5% 0px;
     width:100%;
     min-height: 80px;
     font-family: sans-serif;
-    color: grey;
+    color: black;
 }
 
 #form-submit{
     width: 100%;
     margin: 10px 0px;
     background:#01b701;
-    color: white;
+    color: black;
     font-weight: 700;
     border-radius: 4px;
     font-size: 12pt;
@@ -194,7 +196,22 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 100%;
     font-size: 9pt;
+    position: relative;
 
+}
+.social-link-button{
+    
+}
+
+.social-link-img{
+    padding: 0px;
+    position: absolute;
+    top: 4px;
+    right: 61px;
+}
+
+#twitter-link{
+    right:27px;
 }
 
 #special-footer{
