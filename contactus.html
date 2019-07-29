@@ -11,47 +11,46 @@
 </head>
 
 <body>
-    <div class="header">
 
-        <nav class="main menu"></nav>
-      
-        <div style="display:inline-block">   
-    
-          <img  src="images/rdlogo.png" 
-                class="header-logo"
-                alt="Natural Wonders of the World Logo" 
-           />
-    
-            <h1 class="header-text">
-                Natural Wonders of the World
-            </h1>
-    
-    
-        </div>
+  <div id="page-container">
+
+
+  <div class="header">
+      <div id="header-holder">
+          <h1 class="header-text">
+            <img  src="images/rdlogo.png"
+                  class="header-logo"
+                  alt="Natural Wonders of the World Logo"
+             />
+              Natural Wonders of the World
+          </h1>
       </div>
+    </div>
+
+
 <main align="center">
     <div class="featured-text-container">
-        
-      
+
+
           <nav class="main-menu">
-   
+
               <imput class="menu-btn" type="checkbox" id="menu-btn" />
-      
-    
-      
+
+
+
              <div class="main-nav">
                 <a href="index.html">Home</a>
                 <a href="featuredplaces.html">Featureed Places</a>
                 <a href="aboutus.html">About Us</a>
-            
+
               </div>
-            
+
             </nav>
 
 
 
     <div class="contact-holder">
-      <h3>
+      <h3 class="contact-info-text">
         Main Contact
       </h3>
 
@@ -60,83 +59,85 @@
       <div class="contact-info-holder">
 
             <div class="contact-info">
-                <div>
-                    Rosa Maria de Barros 
+                <div class="contact-info-text">
+                    Happiness Officer: Rosa Maria de Barros
                   </div>
-                <div>
-                  Happiness Officer
+                <div class="contact-info-text">
+
                 </div>
-                   <div>555-000-000</div>
+                   <div class="contact-info-text">
+                     <a href=mailto:<nowiki> write-2me@live.com></a>
+
+                   </div>
             </div>
-       
+
       </div>
 
       <div id="form-holder">
 
-          <form action="https://formspree.io/gk8621@wayne.edu" 
+          <form action="https://formspree.io/gk8621@wayne.edu"
           method="POST">
-        
+
         <label for="form-name">Enter your name</label>
         <input id="form-name"
                class="form-input"
-               type="text" 
+               type="text"
                name="name"
                required pattern="[A-Za-z]+">
 
         <label for="form-email">Enter a email</label>
         <input class="form-input"
                id="form-email"
-               type="email" 
+               type="email"
                name="_replyto"
                required>
           <label for="message">Enter your message</label>
          <textarea  id="message"
-                    name="message" 
+                    name="message"
                     rows="10"
                     value="Write your message here."
                     required>
 
 
          </textarea>
-        
-        <input id="form-submit" 
-               type="submit" 
+
+        <input id="form-submit"
+               type="submit"
                value="Send"
                >
     </form>
-  
+
       </div>
 
-      
+
 
     </div>
   </main>
-
   <footer>
       <span class="footer-column">© Copyright 2019 Natural Wonders of the World
       </span>
       <a  class="social-link-button"
           href="https://www.facebook.com/rosa.maria.54966">
         <img alt="Facebook"
-             class="social-link-img"
+             class="social-link-img facebook-link"
              src="./images/dc36f8aa-3677-4a31-aea2-04f8525a8131.png">
-       
+
         </img>
       </a>
-      <a  
-          
+      <a
+
           class="social-link-button"
           href="https://www.twitter.com/RosaMar75899010">
-        <img alt="Twitter" 
-            class="social-link-img"
-            id="twitter-link"
+        <img alt="Twitter"
+            class="social-link-img twitter-link"
             src="./images/0da17e2a-9ed5-496a-b161-9fd4491ce5c7.png">
-      
+
         </img>
       </a>
-
     </footer>
-  
+</div>
+
+
 </body>
 
 </html>

@@ -3,35 +3,62 @@
     padding: 10px;
     margin: 0;
 }
+
+
+html{
+  padding:0px;
+}
 body {
-    background: rgb(251, 255, 250);
+
     color: rgb(87, 0, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
 }
-a { color: blue;
 
+#page-container{
+      min-height: 100vh;
+    height: fit-content;
+  position: relative;
 }
+
 img {
     max-width: 50%;
+
+}
+
+#water-mark{
+  width:100%;
+  opacity: 0.2;
 }
 nav a {
     text-transform: uppercase;
     text-decoration: none;
 }
+
+
+main{
+  padding:0px;
+}
 .main-menu {
-    position: relative;
-    text-align: center;
+  position: relative;
+      text-align: center;
+      /* background: whitesmoke; */
+      border-top: 1px solid #00a2e0;
+      border-bottom: 1px solid #00a2e0;
 }
+
 .menu-icon {
-cursor:pointer;
-display: inline-block;
-float: right;
-padding: 28px 20px;
-position: relative;
-user-select: none;
+  cursor:pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
 }
-@media screen and (min-width: 768px) { 
-    header, 
+
+
+@media screen and (min-width: 768px) {
+    header,
     footer {
         clear: both;
     }
@@ -42,30 +69,50 @@ user-select: none;
 }
 
 .header {
-    background: rgb(166, 245, 150); 
-    color: rgb(87, 0, 0);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: fit-content;
-    width:100%;
-    text-align:center;
+  background: rgb(255, 255, 255);
+      color: rgb(4, 4, 4);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      height: fit-content;
+      width: 100%;
+      text-align: center;
+
+}
+
+
+#header-holder{
+  box-sizing: border-box;
+      margin: 0;
+      display: inline-block;
+      position: relative;
 }
 
 .header-logo{
-    width:10%; 
-    display:inline-block;
-    padding:0px;
+  width: 10%;
+      display: inline-block;
+      padding: 0px;
+
+      position: relative;
+      top: 9px;
 }
 
+.featured-text-container{
+  padding: 0px;
+    background:white;
+}
 .header-text{
-    float:right; 
-    font-size:90%;
-    width:75%; 
-    display:inline-block;
-    padding:0px
+  float: right;
+  color: green;
+  font-size: 2.5vw;
+  width: 100%;
+  display: inline-block;
+  padding: 0px;
+  font-weight: 500;
 }
 
 a{
-    font-size:55%;
+  font-size: 0.8em;
+      color: #046387;
+      font-weight: 600;
 }
 
 .image-row{
@@ -135,9 +182,20 @@ a{
     display: inline-block;
 }
 
+.contact-info-text{
+  font-size: 0.8em;
+      color: black;
+      padding: 6px;
+}
+
+label{
+  color:black;
+  font-size: 1em;
+}
+
 form{
     display: inline-block;
-    width:57%;
+    width: fit-content;
 }
 
 #form-holder{
@@ -147,7 +205,7 @@ form{
 }
 .form-input{
     display: block;
-    width: 100%;
+    min-width: 240px;
     margin: 0px 0px 20px 0px;
 }
 
@@ -165,53 +223,70 @@ form{
 }
 
 #message{
-    display: block;
-    resize: vertical;
-    width:100%;
-    min-height: 80px;
-    font-family: sans-serif;
-    color: black;
+  display: block;
+      resize: vertical;
+      width: 100%;
+      height: 80px;
+      max-width: 400px;
+      min-height: 40px;
+      max-height: 200px;
+      font-family: sans-serif;
+      color: black;
 }
 
 #form-submit{
-    width: 100%;
-    margin: 10px 0px;
-    background:#01b701;
-    color: black;
-    font-weight: 700;
-    border-radius: 4px;
-    font-size: 12pt;
+  width: 100%;
+      max-width: 100px;
+      margin: 10px 0px;
+      background: #0189b7;
+      color: white;
+      font-weight: 700;
+      border-radius: 27px;
+      font-size: 12pt;
 }
 
 #form-submit:hover{
     cursor:pointer;
-    background: #00c500;
+    background: #009cc5;
 }
 
 
-
+.footer-column{
+  position: absolute;
+bottom: 0px;
+}
 footer {
-    background: rgb(166, 245, 150);
-    color: rgb(87, 0, 0);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 100%;
-    font-size: 9pt;
-    position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+      font-size: 9pt;
+      bottom: -100px;
+      padding: 0px;
+      color: #aaa4a4;
+      height: 100px;
+      left: 0px;
+      border-top: 1px solid #b2b2b2;
+      position: absolute;
 
 }
 .social-link-button{
-    
+
 }
 
 .social-link-img{
-    padding: 0px;
-    position: absolute;
-    top: 4px;
-    right: 61px;
+  padding: 0px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0px, -50%);
+  right: 61px;
+  width: 50px;
+    height: 50px;
 }
 
-#twitter-link{
-    right:27px;
+.twitter-link{
+  right:8px;
+}
+.facebook-link{
+  width:60px;
 }
 
 #special-footer{
@@ -219,4 +294,3 @@ footer {
     bottom:0px;
     left:0px;
 }
-
