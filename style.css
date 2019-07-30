@@ -4,6 +4,9 @@
     margin: 0;
 }
 
+p{
+ color:black;
+}
 
 html{
   padding:0px;
@@ -15,20 +18,32 @@ body {
     padding: 0px;
 }
 
+h2{
+  color:black;
+}
+
 #page-container{
       min-height: 100vh;
     height: fit-content;
   position: relative;
+  padding:0px;
+}
+
+.about-us-img{
+  height:200px;
 }
 
 img {
     max-width: 50%;
-
+    border-radius:20px;
 }
 
 #water-mark{
-  width:100%;
-  opacity: 0.2;
+  position: relative;
+  left: 0px;
+  padding: 0px;
+  max-width: 100%;
+
 }
 nav a {
     text-transform: uppercase;
@@ -98,6 +113,11 @@ main{
 .featured-text-container{
   padding: 0px;
     background:white;
+    color: black;
+}
+
+#map-image{
+      max-width: 305px;
 }
 .header-text{
   float: right;
@@ -129,10 +149,13 @@ a{
 .image-header{
     font-size:12pt;
     color:black;
+    padding:0px;
 }
 
 .actual-image{
     max-width:100%;
+    width:303px;
+    border-radius: 30px;
 }
 
 
@@ -258,15 +281,15 @@ bottom: 0px;
 footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 100%;
-      font-size: 9pt;
-      bottom: -100px;
-      padding: 0px;
-      color: #aaa4a4;
-      height: 100px;
-      left: 0px;
-      border-top: 1px solid #b2b2b2;
-      position: absolute;
-
+  font-size: 9pt;
+  bottom: -100px;
+  padding: 0px;
+  color: #5f5c5c;
+  height: 70px;
+  left: 0px;
+  border-top: 1px solid #b2b2b2;
+  position: absolute;
+  background: #009cc51a;
 }
 .social-link-button{
 
