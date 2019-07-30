@@ -302,16 +302,14 @@ footer {
   top: 50%;
   transform: translate(0px, -50%);
   right: 61px;
-  width: 50px;
-    height: 50px;
+  width: 31px;
+
 }
 
 .twitter-link{
   right:8px;
 }
-.facebook-link{
-  width:60px;
-}
+
 
 #special-footer{
     position:absolute;
